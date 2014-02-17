@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Hello"
+date:   2013-12-01 10:10:10
+categories: misc
+---
+
+world.
+
+![](//dn-madokami.qbox.me/uploads/attachments/52a07630686f6d77ee000000/781e002d86961f2d6a5bae705601f90a/屏幕快照%202013-10-26%2022.23.44.png)
