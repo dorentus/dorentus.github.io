@@ -1,6 +1,6 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: In tribute to 鹿目まどか
+description: "「希望を願う魔法少女がやがては絶望し魔女になるという悲劇の連鎖から、全ての魔法少女を解き放つことを願い魔法少女となる。その願いは非常に大きなものであり、まどか自身は新たなる世界の概念と化してしまった。」"
+meta_description: "「希望を願う魔法少女がやがては絶望し魔女になるという悲劇の連鎖から、全ての魔法少女を解き放つことを願い魔法少女となる。その願いは非常に大きなものであり、まどか自身は新たなる世界の概念と化してしまった。」"
 
 markdown: redcarpet
 pygments: true
@@ -8,5 +8,5 @@ logo: false
 paginate: 15
 
 # Details for the RSS feed generator
-url:            'blog url'
-author:         'Your Name'
+url:            'https://blog.madokami.info'
+author:         'ZHANG Yi'

@@ -41,10 +41,10 @@
 }
 
 /* Apply these base styles to all icons */
-.icon-ghost:before, 
-.icon-feed:before, 
-.icon-twitter:before, 
-.icon-google-plus:before, 
+.icon-ghost:before,
+.icon-feed:before,
+.icon-twitter:before,
+.icon-google-plus:before,
 .icon-facebook:before {
     font-family: 'icons';
     speak: none;
@@ -57,7 +57,7 @@
     text-decoration: none;
 }
 
-/* Each icon is created by inserting the corret character into the 
+/* Each icon is created by inserting the corret character into the
    content of the :before pseudo element. Like a boss. */
 .icon-ghost:before {
     content: "\e000";
@@ -90,7 +90,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: 'Noto Serif', serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 2.0rem;
     line-height: 1.6em;
     color: #3A4145;
@@ -113,7 +113,6 @@ h4, h5, h6 {
     text-rendering: optimizeLegibility;
     line-height: 1;
     margin-top: 0;
-    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -273,8 +272,8 @@ kbd {
     font-weight: bold;
     background: #f4f4f4;
     border-radius: 4px;
-    box-shadow: 
-        0 1px 0 rgba(0, 0, 0, 0.2), 
+    box-shadow:
+        0 1px 0 rgba(0, 0, 0, 0.2),
         0 1px 0 0 #fff inset;
 }
 
@@ -358,6 +357,12 @@ margin on the iframe, cause it breaks stuff. */
     vertical-align: middle;
 }
 
+.centered {
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
 
 /* ==========================================================================
    4. General - The main styles for the the theme
@@ -368,12 +373,14 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     display: table;
     width: 100%;
-    height: 60%;
-    margin-bottom: 5rem;
     text-align: center;
-    color: #fff;
+    color: #eee;
     background: #303538 no-repeat center center;
     background-size: cover;
+}
+
+.site-head-content {
+    margin: 5rem auto;
 }
 
 .blog-logo {
@@ -383,8 +390,9 @@ margin on the iframe, cause it breaks stuff. */
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */
 .blog-logo img {
     display: block;
-    max-height: 100px;
-    width: auto;
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
     margin: 0 auto;
     line-height: 0;
 }
@@ -392,19 +400,28 @@ margin on the iframe, cause it breaks stuff. */
 /* The details of your blog. Defined in ghost/settings/ */
 .blog-title {
     margin: 10px 0 10px 0;
-    font-size: 5rem;
+    font-size: 4rem;
     letter-spacing: -1px;
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    max-width: 470px;
 }
 
 .blog-description {
     margin: 0;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     line-height: 1.5em;
-    font-weight: 300;
-    font-family: 'Noto Serif', serif;
+    font-weight: normal;
     letter-spacing: 0;
+    max-width: 470px;
+}
+
+.blog-logo-container {
+    float: left;
+}
+
+.blog-info-container {
+    text-align: left;
+    margin-left: 120px;
 }
 
 /* Every post, on every page, gets this style on its <article> tag */
@@ -455,7 +472,6 @@ margin on the iframe, cause it breaks stuff. */
 .post-meta {
     display: inline-block;
     margin: 0 0 5px 0;
-    font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
     color: #9EABB3;
 }
@@ -622,7 +638,6 @@ margin on the iframe, cause it breaks stuff. */
     width: 80%;
     max-width: 700px;
     margin: 4rem auto;
-    font-family: 'Open Sans', sans-serif;
     font-size: 1.3rem;
     color: #9EABB3;
     text-align: center;
@@ -672,7 +687,6 @@ margin on the iframe, cause it breaks stuff. */
     margin: 8rem 0 0 0;
     padding: 4rem 0;
     border-top: #EBF2F6 1px solid;
-    font-family: 'Open Sans', sans-serif;
     font-size: 1.3rem;
     line-height: 1.7em;
     color: #BBC7CC;
@@ -791,9 +805,9 @@ margin on the iframe, cause it breaks stuff. */
     }
 
     .site-head {
-        -webkit-box-sizing: border-box; 
+        -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
-        box-sizing: border-box; 
+        box-sizing: border-box;
         height: auto;
         min-height: 240px;
         padding: 15% 0;
@@ -852,7 +866,7 @@ margin on the iframe, cause it breaks stuff. */
         max-height: 80px;
     }
 
-    .inner, 
+    .inner,
     .pagination {
         width: auto;
         margin-left: 16px;
