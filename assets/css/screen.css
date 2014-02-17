@@ -863,7 +863,13 @@ margin on the iframe, cause it breaks stuff. */
 @media only screen and (max-width: 500px) {
 
     .blog-logo img {
-        max-height: 80px;
+        height: 80px;
+        width: 80px;
+    }
+
+    .blog-info-container {
+        margin-left: 80px;
+        width: 200px;
     }
 
     .inner,
@@ -883,6 +889,10 @@ margin on the iframe, cause it breaks stuff. */
 
     .site-head {
         padding: 10% 0;
+    }
+
+    .site-head-content.inner {
+        margin: 2rem 0;
     }
 
     .blog-title {
