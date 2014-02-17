@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>In tribute to 鹿目まどか</title>
+    <link>https://blog.madokami.info</link>
+    <description>「希望を願う魔法少女がやがては絶望し魔女になるという悲劇の連鎖から、全ての魔法少女を解き放つことを願い魔法少女となる。その願いは非常に大きなものであり、まどか自身は新たなる世界の概念と化してしまった。」</description>
+    <pubDate>Sun, 01 Dec 2013 10:10:10 -0000</pubDate>
+    <item>
+      <title>Hello</title>
+      <link>https://blog.madokami.info/misc/2013/12/01/hello.html</link>
+      <description>&lt;p&gt;world.&lt;/p&gt;
+</description>
+      <pubDate>Sun, 01 Dec 2013 10:10:10 -0000</pubDate>
+      <dc:date>2013-12-01T10:10:10Z</dc:date>
+    </item>
+    <dc:date>2013-12-01T10:10:10Z</dc:date>
+  </channel>
+</rss>
