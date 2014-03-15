@@ -1,3 +1,11 @@
+safe: true
+lsi: true
+pyments: true
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+
 name: In tribute to 鹿目まどか
 description: "「希望を願う魔法少女がやがては絶望し魔女になるという悲劇の連鎖から、全ての魔法少女を解き放つことを願い魔法少女となる。その願いは非常に大きなものであり、まどか自身は新たなる世界の概念と化してしまった。」"
 meta_description: "「希望を願う魔法少女がやがては絶望し魔女になるという悲劇の連鎖から、全ての魔法少女を解き放つことを願い魔法少女となる。その願いは非常に大きなものであり、まどか自身は新たなる世界の概念と化してしまった。」"
